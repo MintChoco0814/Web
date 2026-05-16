@@ -1,0 +1,98 @@
+{
+    // users_information 이라는 이름의 배열(Array)
+    // 여러 사용자의 정보를 저장하는 공간
+    "users_information" : [
+
+        // 첫 번째 사용자 객체(Object)
+        {
+            // 사용자의 고유 ID
+            "user_id":"001",
+
+            // 사용자 이름
+            "user_name":"Kim",
+
+            // 사용자 생년월일
+            // 현재는 숫자(Number) 타입으로 저장됨
+            "user_age": 20051209,
+
+            // 사용자 이메일
+            "user_email":"kimsemail@email.com"
+        },
+
+        // 두 번째 사용자 객체
+        {
+            // 사용자 ID
+            "user_id":"002",
+
+            // 사용자 이름
+            "user_name":"Son",
+
+            // 사용자 생년월일
+            "user_age": 20000101,
+
+            // 사용자 이메일
+            "user_email":"Sonsemail@email.com"
+        },
+
+        // 세 번째 사용자 객체
+        {
+            // 사용자 ID
+            "user_id":"003",
+
+            // 사용자 이름
+            "user_name":"Gang",
+
+            // 사용자 생년월일
+            "user_age": 20030512,
+
+            // 사용자 이메일
+            "user_email":"Gangsemail@eamil.com"
+        }
+
+    ],
+
+    // users_location 이라는 배열(Array)
+    // 사용자들의 위치 정보를 저장
+    "users_location" : [
+
+        // 첫 번째 사용자의 위치
+        {
+            // 현재 거주 위치
+            "live_location": "경기도 수원시"
+        },
+
+        // 두 번째 사용자의 위치
+        {
+            // 현재 거주 위치
+            "live_location" : "서울특별시 마포구"
+        },
+
+        // 세 번째 사용자의 위치
+        {
+            // 현재 거주 위치
+            "live_location" : "강원도 춘천시"
+        }
+    ]
+}
+
+JSON 구조 메모리 느낌으로 펴햔
+data
+│
+├── users_information
+│      │
+│      ├── [0]
+│      │      ├── user_id
+│      │      ├── user_name
+│      │      ├── user_age
+│      │      └── user_email
+│      │
+│      ├── [1]
+│      └── [2]
+│
+└── users_location
+       │
+       ├── [0]
+       │      └── live_location
+       │
+       ├── [1]
+       └── [2]
