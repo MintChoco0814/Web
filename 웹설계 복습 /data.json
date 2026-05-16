@@ -1,0 +1,39 @@
+
+{
+
+    "users_information" : [
+        {
+
+            "user_id":"001",
+            "user_name":"Kim",
+            "user_age": 20051209,
+            "user_email":"kimsemail@email.com"
+        },
+        {
+            "user_id":"002",
+            "user_name":"Son",
+            "user_age": 20000101,
+            "user_email":"Sonsemail@email.com"
+        },
+        {
+            "user_id":"003",
+            "user_name":"Gang",
+            "user_age": 20030512,
+            "user_email":"Gangsemail@eamil.com"
+        }
+
+    ],
+
+    "users_location" : [
+        {
+            "live_location": "경기도 수원시"
+        },
+        {
+            "live_location" : "서울특별시 마포구"
+        },
+        {
+            "live_location" : "강원도 춘천시"
+        }
+    ]
+    
+}
