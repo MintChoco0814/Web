@@ -16,10 +16,15 @@ fetch("data.json")
         // users_information 배열 길이만큼 반복함 
         for(let i = 0; i < data.users_information.length; i++) {
         //    console.log(`${data.users_information[i].user_name}` + ` ${data.users_location[i].live_location}`)
-            contentStr += `
-                <h3>${data.users_information[i].user_name}은 현재</h3>
-                <p>${data.users_location[i].live_location}에 있습니다.</p>
-            `;
+            // contentStr += `
+            //     <h3>${data.users_information[i].user_name}은 현재</h3>
+            //     <p>${data.users_location[i].live_location}에 있습니다.</p>
+            // `;
+           contentStr += `
+                <h1>${data.users_information[i].user_name}</h1>
+                <h2>${data.users_information[i].user_email}</h2>
+                <h3>${data.users_location[i].live_location}</h3>
+           `
         }
         /*
             id가 test인 HTML 요소를 선택 
